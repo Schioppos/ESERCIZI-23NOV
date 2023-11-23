@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(97, 92, 92);
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding: 30px;
+}
+.POSTIT{
+    line-height: 40px;
+    background-color: #F8F8C6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    transform: skewY(-6deg);
+    transition: transform 2s;
+    box-shadow: 0px -30px 20px -5px rgba(108, 108, 108, 0.419) inset;
+    border: 0.5px solid rgba(255, 255, 255, 0.659);
+}
+
+.POSTIT:hover{
+   transform: skewY(0) scaleY(1.2) scaleX(1.2);
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.green{
+    background-color: #C7F7C7;
+    transform: skewY(4deg);
+}
+.violet{
+    background-color: #C7C6F0;
+}
